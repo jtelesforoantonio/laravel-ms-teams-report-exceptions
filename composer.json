@@ -1,0 +1,44 @@
+{
+  "name": "jtelesforoantonio/laravel-ms-teams-report-exceptions",
+  "description": "Send exceptions to Microsoft Teams via incoming webhook",
+  "keywords": [
+    "laravel",
+    "log",
+    "logger",
+    "report",
+    "reporter",
+    "exception",
+    "exceptions",
+    "channel",
+    "ms-teams",
+    "microsoft",
+    "teams",
+    "microsoft teams"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jonathan Telesforo Antonio",
+      "email": "jonyjony777@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2.5|^8.0",
+    "ext-json": "*",
+    "laravel/framework": "^7.0|^8.0|^9.0|^10.0|^11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "JTelesforoAntonio\\LaravelMsTeamsReportExceptions\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "JTelesforoAntonio\\LaravelMsTeamsReportExceptions\\LaravelMsTeamsReportExceptionsProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
